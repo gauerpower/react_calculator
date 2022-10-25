@@ -1,0 +1,68 @@
+body {
+    width: 50%;
+    margin: auto;
+    background-color: black;
+}
+
+.App{
+    width: 50%;
+    margin: 25%;
+}
+
+.screen {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-top: 5px;
+    width: 178px;
+    height: 30px;
+    padding: 10px;
+}
+
+.screen h3{
+    margin: auto;
+    text-align: right;
+}
+
+.button-area {
+    display: grid;
+    grid-template-columns: 150px 50px;
+    height: 250px;
+    width: 200px;
+}
+
+.bottom-row {
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+.bottom-row button{
+    width: 100px;
+    height: 50px;
+}
+
+.nums-and-decimal-and-plusminus {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+}
+
+.operator {
+    width: 50px;
+    height: 50px;
+}
+
+.num-one-through-nine, .decimal-point, .zero, .plusminus {
+    width: 50px;
+    height: 50px;
+}
+
+.zero {
+    width: 50px;
+    height: 50px;
+}
+
+.zero-and-decimal-and-plusminus{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+}
